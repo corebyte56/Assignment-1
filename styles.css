@@ -120,3 +120,42 @@ nav a {
   width: 20px;
   padding:4px 0 0 4px;
 }
+
+.problems {
+  padding: 80px 0;
+  text-align: center;
+}
+
+.subtitle {
+  margin: 15px 0 50px;
+  color: #666;
+}
+
+.problem-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+
+
+.icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #ff5a5a;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 15px;
+  padding: 10px;
+}
